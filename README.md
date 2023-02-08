@@ -1,1 +1,1 @@
-This is a program that replactes a Hirst painting.
+This is a program that replicates a Hirst spot painting using the colorgram module to smaple the most common 30 colors from an existing Hirst painting.
