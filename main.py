@@ -15,11 +15,7 @@ for i in range(10):
     for j in range(10):
         sam_color = random.choice(hirst_colors.colors)
         sam.pendown()
-        sam.color(sam_color)
-        sam.fillcolor(sam_color)
-        sam.begin_fill()
-        sam.circle(10)
-        sam.end_fill()
+        sam.dot(20, sam_color)
         sam.penup()
         sam.forward(50)
     y_position += 50
